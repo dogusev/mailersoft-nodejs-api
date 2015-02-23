@@ -1,8 +1,8 @@
-# mailerlite-nodejs-api
-Mailerlite API wrapper for node js
+# mailersoft-nodejs-api
+Mailersoft API wrapper for node js
 ### Install
 ```sh
-npm install mailerlite-nodejs-api
+npm install mailersoft-nodejs-api
 ```
 ### Usage
 ```sh
@@ -54,6 +54,7 @@ $ML_Subscribers.setId('ID').add($subscriber, 1 ,function(r){
     console.log(r);
 });
 ```
+
 ### ML CAMPAINGNS API  
 ```sh
 $ML_Campaigns.setId('ID').getJunk(false, function (r) {
