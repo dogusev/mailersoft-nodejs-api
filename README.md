@@ -13,7 +13,30 @@ var mailerlite = new Mailerlite($apiKey);
 var $ML_Subscribers = mailerlite.subscribers;
 var $ML_Campaigns = mailerlite.campaigns;
 var $ML_lists = mailerlite.lists;
+var $ML_Messages = mailersoft.messages;
+
 ```
+
+### ML Messages API
+
+```sh
+
+var $subscriber = [
+         {
+         email: 'example1@email.com',
+         name: 'First name'
+         },
+         {
+         email: 'gexample2@email.com',
+         name: 'jirst name'
+         }
+    ];
+
+$ML_Messages.setId('ID').addRecipients($subscriber).send(function(r){
+    console.log(r);
+});
+```
+
 ### ML Subscribers API
 
 ```sh
