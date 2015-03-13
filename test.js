@@ -8,21 +8,21 @@ var $ML_Campaigns = mailersoft.campaigns;
 var $ML_lists = mailersoft.lists;
 var $ML_Messages = mailersoft.messages;
 
-
+/*
 var $subscriber = [
          {
-         email: 'example1@email.com',
+         email: 'd.o.gusev@gmail.com',
          name: 'First name'
          },
-         {
-         email: 'gexample2@email.com',
-         name: 'jirst name'
-         }
+        {
+            email: 'dgusev@q-page.com',
+            name: 'First name'
+        }
     ];
          
-$ML_Messages.setId('31043335').addRecipients($subscriber).send(function(r){
+$ML_Messages.setId('31044183').addRecipients($subscriber).send(function(r){
     console.log(r);
-});
+});*/
         /*
          var $subscriber = [
          {
@@ -60,17 +60,17 @@ $ML_Messages.setId('31043335').addRecipients($subscriber).send(function(r){
          });
          
          
-         
+
          var $subscriber = {
          form: {
-         'email': 'd.o.gusev@gmail.com',
-         'name': 'Dmitriy'
+         'email': 'info.sd.illi@gmail.com',
+         'name': 'dfsdf'
          }
          };
-         $ML_Subscribers.setId('3008419').add($subscriber, 1 ,function(r){
+         $ML_Subscribers.setId('3008681').add($subscriber, 1 ,function(r){
          console.log(r);
          });
-         
+
          
          ML CAMPAINGNS API  
          
@@ -124,11 +124,11 @@ $ML_Messages.setId('31043335').addRecipients($subscriber).send(function(r){
          $ML_lists.setId('ID').getActive(false,function (r) {
          console.log('getActive', r);
          });
-         
+
          $ML_lists.getAll(false, function (r) {
-         console.log('getAll', r);
+         console.log('getAll', JSON.stringify(r));
          });
-         
+
          $ML_lists.setId('ID').remove(false, function (r) {
          console.log('remove', r);
          });
@@ -140,8 +140,8 @@ $ML_Messages.setId('31043335').addRecipients($subscriber).send(function(r){
          $ML_lists.add({form:{"name": "new list name"}}, function (r) {
          console.log('add ', r);
          });
-         
-         $ML_lists.setId('ID').get(false, function (r) {
+
+         $ML_lists.setId('3008681').get(false, function (r) {
          console.log('get', r);
          });
          */
