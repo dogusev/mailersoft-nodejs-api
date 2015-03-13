@@ -1,7 +1,7 @@
 {
     "name": "mailersoft-nodejs-api",
     "description": "Unofficial NodeJS wrapper for Mailersoft API",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "author": {
         "name": "Dmitriy Gusev",
         "email": "d.o.gusev@gmail.com"
@@ -28,5 +28,5 @@
     },
     "readme": "Mailersoft API wrapper port from PHP",
     "readmeFilename": "Readme.md",
-    "_id": "mailersoft-nodejs-api@0.0.1"
+    "_id": "mailersoft-nodejs-api@0.0.2"
 }
